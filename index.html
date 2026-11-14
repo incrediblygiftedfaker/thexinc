@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Apps by Gary Montero</title>
+<meta name="description" content="Apps by Gary Montero, with support and privacy pages for each.">
+<style>
+  :root { --bg: #f6f5f1; --text: #1d1d1f; --muted: #5c5b57; --rule: #dedbd2; --card: #ffffff; --accent: #a85400;
+          --tile: #1c1c1e; --tile-ink: #f3efe6; color-scheme: light dark; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #0e0e0f; --text: #f1eee6; --muted: #a9a69e; --rule: #2a2a2c; --card: #17171a; --accent: #f5952e;
+            --tile: #232326; --tile-ink: #f1ece2; }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--text);
+         font: 17px/1.55 -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, Arial, sans-serif; }
+  main { max-width: 680px; margin: 0 auto; padding: 48px 16px 64px; }
+  h1 { font-size: 32px; line-height: 1.15; margin: 0 0 8px; }
+  .lede { color: var(--muted); margin: 0 0 32px; }
+  .app { display: flex; gap: 16px; align-items: center; background: var(--card); border: 1px solid var(--rule);
+         border-radius: 14px; padding: 16px 18px; }
+  .icon { flex: none; display: grid; place-items: center; width: 56px; height: 56px; border-radius: 13px;
+          background: linear-gradient(to bottom, var(--tile) 0 49%, #000 49% 51%, var(--tile) 51%);
+          color: var(--tile-ink); font: 800 34px/1 "Helvetica Neue", Helvetica, Arial, sans-serif; }
+  .app h2 { font-size: 19px; margin: 0 0 2px; }
+  .app p { margin: 0 0 6px; color: var(--muted); }
+  .app a { color: var(--accent); margin-right: 14px; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Apps by Gary Montero</h1>
+  <p class="lede">Support and privacy information for each app.</p>
+  <div class="app">
+    <div class="icon" aria-hidden="true">X</div>
+    <div>
+      <h2>FlipX</h2>
+      <p>A split-flap clock for iPhone.</p>
+      <a href="flipx/support.html">Support</a><a href="flipx/privacy.html">Privacy Policy</a>
+    </div>
+  </div>
+</main>
+</body>
+</html>
